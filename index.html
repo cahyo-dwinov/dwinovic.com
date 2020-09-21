@@ -1,72 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style.css">
     <title>Dwinovic : Front End Developer</title>
 </head>
-<body>        
-    <nav>
-        <div class="logo">
-            Dwinovic
-        </div>
-        <div class="nav-items">
-            <li>
-                <a href="#">Home</a>
-                <a href="#">Blog</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-            </li>
-        </div>
-    </nav>
 
+<body>
     <header>
-        <p>Hi, I'm</p>
-        <p>Cahyo Dwinov</p>
-        <h1>Front End Developer</h1>
-        <p>
-            Hi, I am a struggler who is trying to reach 
-            my dream as a Full Stack Web and Mobile Development.
-            Coding and design are journeys 
-            that makes my life more passionate.
-        </p>
-        <button>Hire Me</button>
-        <div class="get contact">
-            <img src="#" alt="Download">
-            <p>Get My CV</p>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
         </div>
-        <div class="jumbotron">
-            <img src="#" alt="Photo Profil Cahyo Dwinov">
-        </div>
-        <div class="contact">
-            <div class="box">
-                <img src="#" alt="Linkedin">
+
+        <nav class="nav">
+            <div class="nav-logo">
+                Dwinovic
             </div>
-            <div class="box">
-                <img src="#" alt="Instagram">
-            </div>
-            <div class="box">
-                <img src="#" alt="Twitter">
-            </div>
-            <div class="box">
-                <img src="#" alt="Whatsapp">
-            </div>
-            <div class="box">
-                <img src="#" alt="Email">
-            </div>
-        </div>
+
+            <ul class="menu-nav">
+                <li class="menu-nav__item active">
+                    <a href="" class="menu-nav__link">Home</a>
+                </li>
+
+                <li class="menu-nav__item active">
+                    <a href="" class="menu-nav__link">Blog</a>
+                </li>
+
+                <li class="menu-nav__item active">
+                    <a href="" class="menu-nav__link">Portfolio</a>
+                </li>
+
+                <li class="menu-nav__item active">
+                    <a href="" class="menu-nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
+    <main>
+        <section class="home">
+            <h2>Hi, I'm</h2>
+            <h1>Dwinovic</h1>
+            <h1>Front End Developer</h1>
+            <p>
+                Hi, I am a struggler who is trying to reach my dream as a Full Stack Web and Mobile Development. Coding and design are journeys that makes my life more passionate.
+            </p>
+            <button class="btn main">Hire Me</button>
+            <div class="contact cv">
+                <img src="#" alt="Download">
+                <p>Get My CV</p>
+            </div>
+            <div class="home-profile">
+                <img src="#" alt="Dwinovic profile">
+            </div>
+
+            <div class="social-icons">
+                <a href="#!">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </div>
+    </main>
+
+
+    <!-- UNEDITED HERE! -->
     <section>
-        <header>
-            <h1>Selected Project</h1>
-        </header>
+        <h1>Selected Project</h1>
         <article>
-            <header>
-                <h1>Project Satu Com</h1>
-            </header>
-            <img src="" alt="">
+            <h1>Project Satu Com</h1>
+            <img src="" alt="project satu com">
             <div class="button article">
                 <div class="box">
                     <img src="" alt="Globe">
@@ -77,9 +92,7 @@
             </div>
         </article>
         <article>
-            <header>
-                <h1>Project Dua Com</h1>
-            </header>
+            <h1>Project Dua Com</h1>
             <img src="" alt="">
             <div class="button article">
                 <div class="box">
@@ -93,20 +106,19 @@
     </section>
 
     <section>
-        <header>
-            <h1>Who Am I ?</h1>
-        </header>
+        <h1>Who Am I ?</h1>
         <img src="" alt="profile">
+
         <h2>Hi I’m Cahyo Dwinov</h2>
         <p>
-            Let me introduce myself, twenty-year-old Cahyo Dwinov, who has an interest in the world of technology and digital.
-            At the moment I am deepening my knowledge and deepening the coding skills of Web Site and Mobile development.
-            I currently reside in the city of Madiun, Indonesia.
-            As a self-taught learner makes me a better person than before. Learn more about self-discipline, solve problems, make decisions, and act proactively towards change and opportunity.
-            Although my formal education background is far from the technological and digital fields, it does not prevent me from loving and striving to explore my interests in this field.
+            Let me introduce myself, twenty-year-old Cahyo Dwinov, who has an interest in the world of technology and digital. At the moment I am deepening my knowledge and deepening the coding skills of Web Site and Mobile development. I currently reside in the
+            city of Madiun, Indonesia. As a self-taught learner makes me a better person than before. Learn more about self-discipline, solve problems, make decisions, and act proactively towards change and opportunity. Although my formal education background
+            is far from the technological and digital fields, it does not prevent me from loving and striving to explore my interests in this field.
         </p>
+
         <h2>Current Location</h2>
         <p>Madiun City, East Java, Indonesia</p>
+
         <h2>Connect More Closely</h2>
         <ul>
             <li>Linkedin</li>
@@ -115,7 +127,7 @@
             <li>Twitter</li>
             <li>Medium</li>
         </ul>
-        <button>Get My CV</button>
+        <button class="btn main">Get My CV</button>
     </section>
     <section>
         <header>
@@ -131,46 +143,51 @@
         <ul>
             <li>
                 <div class="circle">
-                        <p>2019</p>
+                    <p>2019</p>
                 </div>
                 <ul>
-                    <li><p>Exploration UI, UX, dan Code</p></li>
+                    <li>
+                        <p>Exploration UI, UX, dan Code</p>
+                    </li>
                 </ul>
             </li>
             <li>
                 <div class="circle">
-                        <p>2020</p>
+                    <p>2020</p>
                 </div>
                 <ul>
-                    <li><p>Exploration UI, UX, dan Code</p></li>
+                    <li>
+                        <p>Exploration UI, UX, dan Code</p>
+                    </li>
                 </ul>
             </li>
         </ul>
     </section>
+
     <section>
         <div class="box">
             <h1>Mari Bekerja Sama</h1>
             <button>Hire Now</button>
         </div>
     </section>
+
     <footer>
         <div class="information">
             <ul>
-                <li>Madiun City,
-                    East Java,
-                    Indonesia</li>
-                    <li>+62 8999 876 165</li>
+                <li>Madiun City, East Java, Indonesia
+                </li>
+                <li>+62 8999 876 165</li>
             </ul>
             <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Github</li>
-                <li>Linkedin</li>
-                <li>Medium</li>
-                <li>Qoura</li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Medium</a></li>
             </ul>
         </div>
-        <div class="">
+
+        <div class="copyright">
             <p>Dwinovic 2020</p>
         </div>
     </footer>
@@ -178,5 +195,7 @@
 
 
     <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/593859980c.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
