@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build:css": "tailwind build  src/style/style-src.css -o dist/style/main.css",
-        "watch:tailwind": "nodemon --watch src/style/main-src.css -x \"npm run build:css\"",
+        "build:css": "tailwind build  src/style/tw-src.css -o dist/style/tw-main.css",
+        "watch:tailwind": "nodemon --watch src/style/tw-src.css -x \"npm run build:css\"",
         "server": "npm run watch:tailwind",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
