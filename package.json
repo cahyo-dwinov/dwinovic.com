@@ -1,0 +1,25 @@
+{
+    "name": "dwinovic",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:css": "tailwind build  src/style/style-src.css -o dist/style/main.css",
+        "watch:tailwind": "nodemon --watch src/style/main-src.css -x \"npm run build:css\"",
+        "server": "npm run watch:tailwind",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cahyo-dwinov/dwinovic.com.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cahyo-dwinov/dwinovic.com/issues"
+    },
+    "homepage": "https://github.com/cahyo-dwinov/dwinovic.com#readme",
+    "dependencies": {
+        "tailwindcss": "^1.8.10"
+    }
+}
