@@ -1,8 +1,15 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+@font-face {
+  font-family: Kanit;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
 
+body {
+  font-family: Kanit;
+}
 /*# sourceMappingURL=main.css.map */
